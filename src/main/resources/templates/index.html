@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt - br" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form method="post" th:action="@{/calcular}">
+    <div>
+        <label>Valor1</label>
+        <input type="text" name = "valor1" placeholder="Ex: 12,5">
+    </div>
+
+    <div>
+        <label>Valor2</label>
+        <input type="text" name = "valor2" placeholder="Ex: 12,5">
+    </div>
+    <div>
+        <fieldset>
+            <legend> Escoha uma operação </legend>
+            <label><input type="radio" name="operacao" value="soma" checked>Soma</label>
+            <label><input type="radio" name="operacao" value="subtracao">Subtração</label>
+            <label><input type="radio" name="operacao" value="multiplicacao">Multiplicacão</label>
+            <label><input type="radio" name="operacao" value="divisao">Divisão</label>
+        </fieldset>
+    </div>
+    <button type="submit">Calcular</button>
+</form>
+
+</body>
+</html>
