@@ -1,0 +1,101 @@
+/* Resetando margens e paddings para evitar comportamentos indesejados */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo geral do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    padding: 20px;
+}
+
+/* Formulário centralizado na página */
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+/* Estilo para os campos de input e labels */
+div {
+    margin-bottom: 15px;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+}
+
+/* Estilo para os campos de input do tipo radio */
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 10px;
+    color: #333;
+}
+
+label input[type="radio"] {
+    margin-right: 8px;
+}
+
+/* Estilo para o botão */
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilo para as seções de resultado e erro */
+section {
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Estilo para o texto de erro */
+section p {
+    color: red;
+    font-weight: bold;
+}
